@@ -1,0 +1,25 @@
+{
+	"manifest_version": 2,
+ 
+	"name": "plxs.spase bot",
+	"description": "plxs.spase bot",
+	"version": "1.0",
+ 
+	"browser_action": {
+		"default_icon": "favicon.png",
+		"default_popup": "popup.html"
+	},
+	"background": {
+		"scripts": ["background.js"]
+	},
+	"content_scripts": [{
+		"matches": ["https://pxls.space/"],
+		"js": ["content.js"],
+		"run_at": "document_end"
+	}],
+	"permissions": [
+		"tabs",
+		"activeTab",
+		"https://pxls.space/"
+	]
+}
