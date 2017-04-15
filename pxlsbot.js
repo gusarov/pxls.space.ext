@@ -16,14 +16,14 @@ var palette = [
 	[207,110,228],
 	[130,0,128]
 ];
-function pxlsbot(image) {
+function Botnet(image) {
 	// set default params
 	image.ignore = image.ignore || [];
 	image.dir = image.dir || 0;
 	image.pixelize = image.pixelize || false;
 	this.image = image;
 }
-pxlsbot.prototype.start = function() {
+Botnet.prototype.start = function() {
 	var template = {
 		image: new Image(),
 		canvas: document.createElement('canvas'),
