@@ -1,5 +1,9 @@
+//console.log("!!! main js 2")
+
+//chrome.extension.getBackgroundPage().console.log('!!! main js 1');
+
+
 ment.addEventListener('DOMContentLoaded', function () {
-/*
 	var links = document.getElementsByTagName("a");
 	for (var i = 0; i < links.length; i++) {
 		(function () {
@@ -10,7 +14,6 @@ ment.addEventListener('DOMContentLoaded', function () {
 			};
 		})();
 	}
-*/
 
 	var checkPageButton = document.getElementById('startbot');
 	checkPageButton.addEventListener('click', function() { 

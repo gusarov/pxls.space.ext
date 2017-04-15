@@ -13,13 +13,13 @@
 		"scripts": ["background.js"]
 	},
 	"content_scripts": [{
-		"matches": ["https://pxls.space/"],
+		"matches": ["http://pxls.space/"],
 		"js": ["content.js"],
 		"run_at": "document_end"
 	}],
 	"permissions": [
 		"tabs",
 		"activeTab",
-		"https://pxls.space/"
+		"http://pxls.space/*"
 	]
 }
