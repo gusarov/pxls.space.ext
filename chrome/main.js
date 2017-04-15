@@ -19,7 +19,7 @@ ment.addEventListener('DOMContentLoaded', function () {
 				console.log(response);
 				var _script = response.doc.createElement('script');
 	_script.type = "text/javascript";
-	_script.src = "https://cdn.rawgit.com/gusarov/pxls.space.ext/master/pxlsbot.min.js";
+	_script.src = "https://cdn.rawgit.com/gusarov/pxls.space.ext/master/pxlsbot.js";
 	_script.onload = function() {
 		var b = new Botnet({
 			title: "",

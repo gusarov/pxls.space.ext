@@ -1,0 +1,6 @@
+{
+	"tasks": [
+		{"x": 1777, "y": 797, "image": "test.png", "tag": "test"},
+		{"x": 379, "y": 1118, "image": "navalny_photo.png", "tag": "navalny"}
+	]	
+}
